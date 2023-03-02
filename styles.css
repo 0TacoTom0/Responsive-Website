@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+}
+
+html {
+    font: 0.8em Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #F1F1F1;
+}
+
+header{
+    text-align: center;
+    background-color: #FFF;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    /*for testing */
+    border: 0px solid #000;
+}
+
+header h1{
+    margin-bottom: 10px;
+}
+
+header p{
+    margin-bottom: 50px;
+}
+
+.navbar{
+    color: #FFF;
+    background-color: #333;
+    display: block;
+    width: 100%;
+}
+
+.navbar ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 10px 0 10px 0;
+}
+
+.navbar a:last-of-type{
+    border-bottom: 1px solid grey;
+}
+
+.content-container{
+    padding: 25px 10px 25px 10px;
+    margin: 15px 15px 15px 15px;
+    background-color: #FFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    /*for testing */
+    border: 0px solid #000;
+}
+
+.content-container h2{
+    margin-bottom: 10px;
+}
+
+.content-container h3{
+    font: 1em Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content-container p{
+    margin-bottom: 10px;
+}
+
+.image{
+    display: block;
+    text-align: center;
+    padding: 70px 0;
+    background-color: #DDD;
+    margin-bottom: 10px;
+}
+
+footer{
+    text-align: center;
+    padding: 25px 0 25px 0;
+    margin-top: 50px;
+    bottom: 0;
+    background-color: #DDD;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+
+    /*for testing */
+    border: 0px solid #000;
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar a{
+        margin: 0 10px 0 10px;
+    }
+
+    .navbar li:hover{
+        background-color: #000;
+    }
+
+    .navbar ul {
+        display: flex;
+        margin: 0 15px 0 15px;
+    }
+
+    .navbar a:last-of-type{
+        border-bottom: none;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+
+    main{
+        display: flex;
+    }
+
+    .media-container{
+        flex: 3;
+    }
+
+    .side-content-container{
+        flex: 1;
+    }
+
+}
