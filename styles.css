@@ -57,13 +57,13 @@ img{
     display: block;
     padding: 10px 0 10px 0;
     color: #F57F33;
-    font-weight: bold;
+    font-weight: 900;
     text-decoration: none;
     text-align: center;
 }
 
 .navbar a:last-of-type{
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #F57F33;
 }
 
 .content-container{
