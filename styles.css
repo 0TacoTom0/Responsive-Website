@@ -29,7 +29,7 @@ header{
 }
 
 header img{
-    max-width: 80%;
+    width: 200px;
     height: auto;
     margin-bottom: 50px;
 }
@@ -109,12 +109,6 @@ footer{
 
 @media screen and (min-width: 768px) {
 
-    header img{
-        max-width: 40%;
-        height: auto;
-        margin-bottom: 50px;
-    }
-
     img{
         display: block;
         margin: 10px auto 10px auto;
@@ -148,12 +142,6 @@ footer{
 }
 
 @media screen and (min-width: 1000px) {
-
-    header img{
-        max-width: 20%;
-        height: auto;
-        margin-bottom: 50px;
-    }
 
     img{
         display: block;
